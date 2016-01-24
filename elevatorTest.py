@@ -20,6 +20,8 @@ class ElevatorLogic(object):
         # Feel free to add any instance variables you want.
         self.destination_floor = None
         self.callbacks = None
+        #Consider adding a queue for currentDirection and nextDirection
+        
 
     def on_called(self, floor, direction):
         """
